@@ -48,6 +48,14 @@
 				<string>ArrowColor</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>SettingsButtonColor</string>
