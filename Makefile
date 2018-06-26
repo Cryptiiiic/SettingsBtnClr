@@ -18,3 +18,5 @@ clean_::
 	@rm -Rf .theos
 	@rm -Rf packages
 	@rm -Rf obj
+SUBPROJECTS += settingsbuttoncolor
+include $(THEOS_MAKE_PATH)/aggregate.mk
