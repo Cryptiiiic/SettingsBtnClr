@@ -1,0 +1,9 @@
+Package: com.cryptic.prefsbuttoncolor
+Name: Settings Button Color
+Depends: mobilesubstrate, preferenceloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Change the color of the back button in Settings.
+Maintainer: Cryptic, Rusty Balboa
+Author: Cryptic, Rusty Balboa
+Section: Tweaks
