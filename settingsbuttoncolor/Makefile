@@ -5,7 +5,7 @@ SettingsButtonColor_FILES = BTNCLRRootListController.m
 SettingsButtonColor_INSTALL_PATH = /Library/PreferenceBundles
 SettingsButtonColor_FRAMEWORKS = UIKit
 SettingsButtonColor_PRIVATE_FRAMEWORKS = Preferences
-
+SettingsButtonColor_LIBRARIES = colorpicker
 include $(THEOS_MAKE_PATH)/bundle.mk
 
 internal-stage::
