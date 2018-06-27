@@ -1,6 +1,6 @@
-#import "BTNCLRRootListController.h"
-#import <spawn.h>
-#import <sys/stat.h>
+#include "BTNCLRRootListController.h"
+#include <spawn.h>
+#include <sys/stat.h>
 
 @implementation BTNCLRRootListController
 
@@ -16,10 +16,10 @@
 
 -(void)close_settings
 {
-	char *args[] = { "/usr/bin/killall", "-9", "Preferences", NULL };
+	char *args[] = { "killall -9 Preferences", NULL };
 	pid_t pid;
 	int stat;
 	posix_spawn(&pid, args[0], NULL, NULL, args, NULL);
-	waitpid(pid, &stat, 0);
+	waitpid(pid, &stat, 0
 }
 @end

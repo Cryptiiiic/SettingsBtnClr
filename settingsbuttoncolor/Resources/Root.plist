@@ -50,11 +50,11 @@
 		</dict>
 		<dict>
 			<key>action</key>
-			<string>respring</string>
+			<string>close_settings</string>
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>Respring</string>
+			<string>Close Settings</string>
 		</dict>
 	</array>
 	<key>title</key>
